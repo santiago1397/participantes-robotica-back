@@ -17,7 +17,12 @@ const UserSchema = new mongoose.Schema(
         tutorYt: {type: String,max: 100,},
         tutorIg: {type: String,max: 100,},
         tutorOtherSM: {type: String,max: 100,},
-        teamId:{type: String,max: 100,}
+        tutorInstitution:{type: String,max: 100,},
+        tutorInstitutionState:{type: String,max: 100,},
+        tutorInstitutionMunicipality:{type: String,max: 100,},
+        tutorInstitutionParish:{type: String,max: 100,},
+        teamId:{type: String,max: 100,},
+        
     },
     { timestamps: true }
 );
